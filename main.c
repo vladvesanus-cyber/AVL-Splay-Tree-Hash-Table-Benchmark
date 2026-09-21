@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include "hashtable.c"
-#include "splay.c"
-#include "avl.c"
+#include "Splay.c"
+#include "AVL.c"
 
 void generate_keys(int *keys, int n, int mode) {
     if (mode == 0) {  // random
